@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background: url('../src/img/office1.jpg') center center;
+  background-image: cover;
+}
+
+.MainCalculadora {
+  padding: 2rem;
+  max-width: 45vh;
+  height: 50vh;
+  border-radius: 6px;
+  background: linear-gradient(
+    to bottom,
+    #1a1915 0%,
+    #1a1915 35%,
+    #ccc 35%,
+    #ccc 100%
+  );
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6);
+}
+.corpoCalculadora {
+  margin-top: 10px;
+  width: 100%;
+}
+@media (max-width: 490px) {
+  .App {
+    background: url('../src/img/office1.jpg') center center;
+  }
+  .MainCalculadora {
+    padding: 1.3rem;
+    width: 35vh;
+    height: 35vh;
+  }
+  .corpoCalculadora {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 430px) {
+  .App {
+    background: url('../src/img/office_mobile.jpg') no-repeat;
+  }
+  .MainCalculadora {
+    padding: 0;
+    width: 30vh;
+    height: 30vh;
+  }
+}
