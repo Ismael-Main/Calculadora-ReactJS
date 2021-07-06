@@ -17,7 +17,6 @@
 .MainCalculadora {
   padding: 2rem;
   max-width: 45vh;
-  height: 50vh;
   border-radius: 6px;
   background: linear-gradient(
     to bottom,
@@ -38,8 +37,6 @@
   }
   .MainCalculadora {
     padding: 1.3rem;
-    width: 35vh;
-    height: 35vh;
   }
   .corpoCalculadora {
     margin-top: 0px;
@@ -51,7 +48,5 @@
   }
   .MainCalculadora {
     padding: 0;
-    width: 30vh;
-    height: 30vh;
   }
 }
