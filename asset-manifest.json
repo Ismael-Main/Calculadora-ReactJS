@@ -14,9 +14,9 @@
     "static/media/App.css": "../static/media/office_mobile.7fa0df84.jpg"
   },
   "entrypoints": [
-    "../static/js/runtime-main.35ffe0cd.js",
-    "../static/js/2.94f69518.chunk.js",
-    "../static/css/main.97fd4075.chunk.css",
-    "../static/js/main.3318f51f.chunk.js"
+    "/static/js/runtime-main.35ffe0cd.js",
+    "/static/js/2.94f69518.chunk.js",
+    "/static/css/main.97fd4075.chunk.css",
+    "/static/js/main.3318f51f.chunk.js"
   ]
 }
