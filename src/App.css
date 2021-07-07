@@ -10,7 +10,8 @@
   align-content: center;
   justify-content: center;
   align-items: center;
-  background: url('../src/img/office1.jpg') center center;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(60,60,60,1) 100%);
   background-image: cover;
 }
 
